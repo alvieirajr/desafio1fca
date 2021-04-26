@@ -6,3 +6,8 @@ Primeiro Desafio do Programa Full Cycle de Aceleração: Edição Docker
 * chmod +x ./run.sh 
 * ./run.sh
 * Abrir [localhost:8080](http://localhost:8080)
+# Considerações:
+É disponibilizado também o script ./stop.sh que para automaticamente todos os containers levantados pelo ./run.sh. Para utilizar basta:
+* chmod +x ./stop.sh 
+* ./stop.sh
+
