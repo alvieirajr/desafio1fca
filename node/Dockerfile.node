@@ -6,8 +6,12 @@ RUN apt-get update \
 
 COPY . .
 
+RUN npm install 
+
 EXPOSE ${NODEJS_PORT}
 
 RUN chmod +x /usr/src/app/wait-and-go.sh
 
 CMD ["/usr/src/app/wait-and-go.sh"]
+
+#CMD [ "bash" ]

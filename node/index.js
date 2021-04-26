@@ -21,6 +21,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('Server are up - Running on port: ' + port)
+    console.log('NodeJs server are up - Running on port: ' + port)
 })
 
