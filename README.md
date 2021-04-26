@@ -1,4 +1,7 @@
 # desafio1fca
 Programa Full Cycle de Aceleração: Edição Docker
 # Instruções de uso:
-git clone 
+git clone https://github.com/alvieirajr/desafio1fca.git
+chmod +x ./run.sh 
+chmod +x ./stop.sh
+./run.sh
