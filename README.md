@@ -5,4 +5,4 @@ Primeiro Desafio do Programa Full Cycle de Aceleração: Edição Docker
 * cd desafio1fca
 * chmod +x ./run.sh 
 * ./run.sh
-* Abrir [localhost:8000](http://localhost:8000)
+* Abrir [localhost:8080](http://localhost:8080)
