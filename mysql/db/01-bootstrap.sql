@@ -1,7 +1,5 @@
 USE cursos;
 
-GRANT USAGE ON *.* TO ping@'%' IDENTIFIED BY 'ping';
-
 CREATE TABLE cursos (
     id integer not null auto_increment PRIMARY KEY,
     name varchar(200)
