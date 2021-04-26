@@ -1,0 +1,13 @@
+FROM node
+
+WORKDIR /usr/src/app
+RUN apt-get update \
+    && apt-get install -y default-mysql-client
+
+COPY . .
+
+EXPOSE ${NODEJS_PORT}
+
+RUN chmod +x /usr/src/app/wait-and-go.sh
+
+CMD ["/usr/src/app/wait-and-go.sh"]

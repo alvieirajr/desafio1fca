@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            * {margin: 0;padding: 0}
+            html,body {
+                font: 14px/20px Arial, Helvetica, sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                margin: 0;
+                height: 100%;
+            }
+            p {margin-bottom: 20px}
+            p:last-child {margin-bottom: 0}
+            h1,h2,h3,h4 {
+                margin-bottom: 20px;
+            }
+            hr {
+                border: 0; 
+                height: 1px; 
+                background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+                background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+                background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+                background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+                margin: 20px 0;
+            }
+            .container {
+                background: #fff;
+                margin: 30px auto;
+                max-width: 700px;
+                overflow: hidden;
+                padding: 20px;
+                border-radius: 4px;
+            }
+
+
+
+            /* ------------------------------------------------------------ */
+
+
+
+            /* Alerts */
+            .alert-red .alert-close, .alert-pink .alert-close,
+            .alert-purple .alert-close, .alert-indigo .alert-close,
+            .alert-blue .alert-close, .alert-cyan .alert-close,
+            .alert-teal .alert-close, .alert-green .alert-close,
+            .alert-orange .alert-close, .alert-brown .alert-close,
+            .alert-bgray .alert-close {
+                color: #fff;
+            }
+            /* Red */
+            .alert-red {
+                background-color: #E57373 !important;
+                color: #fff !important;
+            }
+            /* Pink */
+            .alert-pink {
+                background-color: #F06292 !important;
+                color: #fff !important;
+            }
+            /* Purple */
+            .alert-purple {
+                background-color: #BA68C8 !important;
+                color: #fff !important;
+            }
+            /* Indigo */
+            .alert-indigo {
+                background-color: #7986CB !important;
+                color: #fff !important;
+            }
+            /* Blue */
+            .alert-blue {
+                background-color: #64B5F6 !important;
+                color: #fff !important;
+            }
+            /* Cyan */
+            .alert-cyan {
+                background-color: #4DD0E1 !important;
+                color: #fff !important;
+            }
+            /* Teal */
+            .alert-teal {
+                background-color: #4DB6AC !important;
+                color: #fff !important;
+            }
+            /* Green */
+            .alert-green {
+                background-color: #81C784 !important;
+                color: #fff !important;
+            }
+            /* Orange */
+            .alert-orange {
+                background-color: #FFB74D !important;
+                color: #fff !important;
+            }
+            /* Brown */
+            .alert-brown {
+                background-color: #A1887F !important;
+                color: #fff !important;
+            }
+            /* Blue gray */
+            .alert-bgray {
+                background-color: #90A4AE !important;
+                color: #fff !important;
+            }
+
+            .alert {
+                background-color: #eee;
+                color: #000;
+                border-radius: 4px;
+                padding: 20px;
+                margin-bottom: 15px;
+                opacity: 1;
+                transition: opacity 0.4s;
+            }
+            .alert-close {
+                margin-left: 15px;
+                color: #bbb;
+                float: right;
+                font-size: 22px;
+                font-weight: bold;
+                line-height: 20px;
+                cursor: pointer;
+            }
+            .alert-close:hover {
+                color: #000;
+            } 
+        </style>
+    </head>
+    <script language="javascript">
+        setInterval(function(){
+           window.location.reload(1);
+        }, 3000);
+    </script>
+    <body>
+        <div class="container">
+            <h2>Alertas</h2>
+            <div class="alert">
+                <span class="alert-close" data-close="alert" title="Close">&times;</span>
+                <ul style="list-style-type:none;">
+                    <li>Container Nginx online</li>
+                    <li>Container MYSQL carregando ...</li>
+                    <li>Container NodeJS esperando container MySQL subir.</h1>
+                </ul>
+            </div>
+            <br>
+            <p>Esta pagina será atualizada automaticamente.</p>
+        </div>
+    </body>
+</html>
