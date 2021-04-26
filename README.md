@@ -10,8 +10,10 @@ open http://localhost:8080
 ```
 # Considerações:
 É disponibilizado também o script ./stop.sh que para automaticamente todos os containers levantados pelo ./run.sh. Para utilizar basta:
-* chmod +x ./stop.sh 
-* ./stop.sh
+```abuild
+chmod +x ./stop.sh 
+./stop.sh
+```
 # Recurso de espera:
 Você pode alterar o ./run.sh de forma que sejam executados somente o servidor nodejs e o nginx para que seja possível visualizar a pagina customizada de espera por container. 
 
